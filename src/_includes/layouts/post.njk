@@ -1,0 +1,157 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+<style>
+
+  footer{
+    display: none;
+  }
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66%;
+  height: 80vh;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  padding: var(--jaaps-padding);
+}
+  .product-image-first{
+    margin-top: 10vh;
+  }
+  .product-image:last-of-type{
+    margin-bottom: 10vh;
+  }
+  .product-image-frame{
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.product-text {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  right: 0;
+  top: 0px;
+  width: 34%;
+  min-height: 100vh;
+  padding: var(--jaaps-padding);
+  pointer-events: none;
+}
+.product-text-wrapper {
+  width: 100%;
+  max-width: 600px;
+
+}
+  .product-text-mobile{
+    display: none;
+  }
+
+@media only screen and (max-width: 1400px) {
+  .product-images{
+    position: relative;
+    width: 100vw;
+    margin-top:  var(--menu-height);
+    height: calc(100vh - var(--menu-height));
+  }
+  .product-image{
+    width: 100vw;
+    aspect-ratio: 16 / 7;
+    padding: 0;
+        
+  }
+  .product-image-first{
+    margin-top: 0vh;
+  }
+ .product-image-frame{
+    background-size: contain;
+    background-position: center center;
+  }
+  .product-text{
+    display: none;
+  }
+  .product-text-mobile{
+    text-align: center;
+    width: auto;
+    padding: var(--jaaps-padding);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    padding: var(--jaaps-padding);
+  }
+  .product-text-mobile .product-text-wrapper{
+    width: auto;
+    max-width: none;
+    min-width: auto;
+    white-space: normal;
+  }
+}
+@media only screen and (max-width: 960px) {
+}
+@media only screen and (max-width: 480px) {
+}
+
+</style>
+
+ 	<div class="product-images">
+    
+    {% set n = 0 %}
+    {% set contentArr = content.split('$$$') %}
+    
+    {% for image in images %}
+
+      {% if contentArr[n] %}
+        <div class="product-text-mobile">
+          <div class="product-text-wrapper">
+             {% if n == 0 %}
+              <h1>{{title}} | {{ description }}</h1>
+            {% endif %}
+            <p>{{ contentArr[n] | safe }}</p>
+          </div>
+        </div>
+      {% endif %}
+    
+    <div class="product-image {{ 'product-image-first' if n == 0 }}">
+      
+ 			<div class="product-image-frame" style="background-image:url('{{image}}')">
+        
+      </div>
+ 		</div>
+    {% set n = n + 1 %}
+
+    {% endfor %} 		
+ 	</div>
+ 	 <div class="product-text">
+ 	 	<div class="product-text-wrapper">
+	 		<h1>{{title}} | {{ description }}</h1>
+	 		<p>{{ content | safe | replace("$$$", "") }}</p>
+	 	</div>
+ 	</div>

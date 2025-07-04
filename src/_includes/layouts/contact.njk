@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+{# The Home page uses this template–it extends the base template #}
+
+<style>
+  
+  body{
+/*     background-color: var(--accent-color); */
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+  }
+  footer{
+    display: none;
+  }
+  a:hover,
+  #menu a:hover{
+    color: var(--brand-color);
+    opacity: .8;
+  }
+  
+  
+  footer{
+    display: none;
+  }
+  
+  #page-content{
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+    padding: 0 var(--jaaps-padding);
+    font-weight: var(--font-weight-bold);
+  }
+  
+  #page-delta{
+    pointer-events: none;
+    background-image: url("/public/images/BD_logo+text_blue.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    aspect-ratio: 6/3;
+    margin-bottom: var(--jaaps-padding);
+  }
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
+ 
+  @media only screen and (max-width: 400px) {
+   
+  }
+
+</style>
+<div id="page-content">
+  <div id="page-delta"></div>
+  
+      {{ content | safe }}
+
+</div>

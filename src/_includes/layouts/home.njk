@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+{# The Home page uses this template–it extends the base template #}
+<style>
+  main{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #home-txt{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: var(--jaaps-padding);
+  }
+  #hero-video {
+    aspect-ratio: 16/9;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  @media only screen and (max-width: 960px) {
+    main, #home{
+        justify-content: center;
+    }
+   }
+</style>
+<div id="home">
+ 
+  <div id="home-txt">
+    {{ content | safe }}
+  </div>
+  <div id="hero-video">
+   <iframe
+        src="{{video}}?autoplay=1&loop=1&background=1muted=1"
+        frameborder="0"
+        allow="autoplay"
+        allowfullscreen
+        style="width: 100%; height: 100%"
+        title="Bureau Delta Showreel"
+      ></iframe>
+  </div>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
