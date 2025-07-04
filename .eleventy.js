@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
     "woff2"
   ]);
   eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   /* From: https://github.com/artstorm/eleventy-plugin-seo
   
@@ -82,7 +83,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       includes: "_includes",
-      output: "dist"
+      output: "docs"
     }
   };
 };
