@@ -6,16 +6,16 @@ order: 10
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/Maallust_bottle_mosaic.png
+cover: ../public/images/Maallust_bottle_mosaic.png
 images:
-  - /public/images/Maallust_bottle_0000_Laag-2.png
-  - /public/images/Maallust_bottle_0001_Laag-4.png
-  - /public/images/Maallust_bottle_0002_Laag-1.png
-  - /public/images/Maallust_bottle_0003_Laag-5.png
-  - /public/images/Maallust_bottle_0004_Laag-3.png
-  - /public/images/Maallust_bottle_0005_Laag-6.png
-  - /public/images/Maallust_bottle_0006_Laag-8.png
-  - /public/images/Maallust_bottle_0007_Laag-7.png
+  - ../public/images/Maallust_bottle_0000_Laag-2.png
+  - ../public/images/Maallust_bottle_0001_Laag-4.png
+  - ../public/images/Maallust_bottle_0002_Laag-1.png
+  - ../public/images/Maallust_bottle_0003_Laag-5.png
+  - ../public/images/Maallust_bottle_0004_Laag-3.png
+  - ../public/images/Maallust_bottle_0005_Laag-6.png
+  - ../public/images/Maallust_bottle_0006_Laag-8.png
+  - ../public/images/Maallust_bottle_0007_Laag-7.png
 ---
 $$$
 

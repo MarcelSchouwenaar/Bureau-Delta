@@ -6,14 +6,14 @@ order: 2
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/Fatboy_Edison_mosaic.png
+cover: ../public/images/Fatboy_Edison_mosaic.png
 images:
-  - /public/images/Fatboy_Edison_0000_Laag-4.png
-  - /public/images/Fatboy_Edison_0001_Laag-3.png
-  - /public/images/Fatboy_Edison_0002_Laag-5.png
-  - /public/images/Fatboy_Edison_0003_Laag-2.png
-  - /public/images/Fatboy_Edison_0005_Laag-8.png
-  - /public/images/Fatboy_Edison_0004_Laag-1.png
+  - ../public/images/Fatboy_Edison_0000_Laag-4.png
+  - ../public/images/Fatboy_Edison_0001_Laag-3.png
+  - ../public/images/Fatboy_Edison_0002_Laag-5.png
+  - ../public/images/Fatboy_Edison_0003_Laag-2.png
+  - ../public/images/Fatboy_Edison_0005_Laag-8.png
+  - ../public/images/Fatboy_Edison_0004_Laag-1.png
 ---
 $$$
 

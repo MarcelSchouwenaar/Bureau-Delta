@@ -6,14 +6,14 @@ order: 7
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/Philips_storeflux_mosaic.png
+cover: ../public/images/Philips_storeflux_mosaic.png
 images:
-  - /public/images/Philips_storeflux_0000_Laag-3.png
-  - /public/images/Philips_storeflux_0001_Laag-5.png
-  - /public/images/Philips_storeflux_0002_Laag-1.png
-  - /public/images/Philips_storeflux_0003_Laag-6.png
-  - /public/images/Philips_storeflux_0004_Laag-4.png
-  - /public/images/Philips_storeflux_0005_Laag-7.png
+  - ../public/images/Philips_storeflux_0000_Laag-3.png
+  - ../public/images/Philips_storeflux_0001_Laag-5.png
+  - ../public/images/Philips_storeflux_0002_Laag-1.png
+  - ../public/images/Philips_storeflux_0003_Laag-6.png
+  - ../public/images/Philips_storeflux_0004_Laag-4.png
+  - ../public/images/Philips_storeflux_0005_Laag-7.png
 ---
 $$$
 

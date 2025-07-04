@@ -6,14 +6,14 @@ order: 5
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/MOOOI_NR2_mosaic.png
+cover: ../public/images/MOOOI_NR2_mosaic.png
 images:
-  - /public/images/MOOOI_NR2_selection_0000_Laag-1.png
-  - /public/images/MOOOI_NR2_selection_0001_Laag-6.png
-  - /public/images/MOOOI_NR2_selection_0002_Laag-3.png
-  - /public/images/MOOOI_NR2_selection_0003_Laag-7.png
-  - /public/images/MOOOI_NR2_selection_0004_Laag-4.png
-  - /public/images/MOOOI_NR2_selection_0005_Laag-5.png
+  - ../public/images/MOOOI_NR2_selection_0000_Laag-1.png
+  - ../public/images/MOOOI_NR2_selection_0001_Laag-6.png
+  - ../public/images/MOOOI_NR2_selection_0002_Laag-3.png
+  - ../public/images/MOOOI_NR2_selection_0003_Laag-7.png
+  - ../public/images/MOOOI_NR2_selection_0004_Laag-4.png
+  - ../public/images/MOOOI_NR2_selection_0005_Laag-5.png
 ---
 $$$
 

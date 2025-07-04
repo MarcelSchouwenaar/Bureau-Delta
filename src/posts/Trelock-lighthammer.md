@@ -6,16 +6,16 @@ order: 6
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/Trelock_lighthammer_mosaic.png
+cover: ../public/images/Trelock_lighthammer_mosaic.png
 images:
-  - /public/images/Trelock_lighthammer_0000_Laag-14.png
-  - /public/images/Trelock_lighthammer_0001_Laag-1.png
-  - /public/images/Trelock_lighthammer_0002_Laag-12.png
-  - /public/images/Trelock_lighthammer_0004_Laag-11.png
-  - /public/images/Trelock_lighthammer_0005_Laag-8.png
-  - /public/images/Trelock_lighthammer_0003_Laag-11.png
-  - /public/images/Trelock_lighthammer_0006_Laag-15.png
-  - /public/images/Trelock_lighthammer_0010_Laag-2.png
+  - ../public/images/Trelock_lighthammer_0000_Laag-14.png
+  - ../public/images/Trelock_lighthammer_0001_Laag-1.png
+  - ../public/images/Trelock_lighthammer_0002_Laag-12.png
+  - ../public/images/Trelock_lighthammer_0004_Laag-11.png
+  - ../public/images/Trelock_lighthammer_0005_Laag-8.png
+  - ../public/images/Trelock_lighthammer_0003_Laag-11.png
+  - ../public/images/Trelock_lighthammer_0006_Laag-15.png
+  - ../public/images/Trelock_lighthammer_0010_Laag-2.png
 ---
 $$$
 

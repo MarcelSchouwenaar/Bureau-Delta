@@ -6,12 +6,12 @@ order: 4
 tags:
   - posts
 layout: layouts/post.njk
-cover: /public/images/Novio_selection_mosaic.png
+cover: ../public/images/Novio_selection_mosaic.png
 images:
-  - /public/images/Novio_selection_0001_Laag-4.png
-  - /public/images/Novio_selection_0002_Sens-U-2_op-buik.png
-  - /public/images/Novio_selection_0004_NovioScan_Shield_15.png
-  - /public/images/Novio_selection_0005_Concept3_exploded.png
+  - ../public/images/Novio_selection_0001_Laag-4.png
+  - ../public/images/Novio_selection_0002_Sens-U-2_op-buik.png
+  - ../public/images/Novio_selection_0004_NovioScan_Shield_15.png
+  - ../public/images/Novio_selection_0005_Concept3_exploded.png
 
 ---
 $$$

@@ -12,7 +12,7 @@ You'll get best use out of this project if you're familiar with basic HTML and J
 
 ← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
 
-← `public/style.css`: The styling rules for your pages and posts.
+← `../public/style.css`: The styling rules for your pages and posts.
 
 ← `.eleventy.js`: Here you can configure how Eleventy builds your content into the site. Read through the initial blog posts in the site for steps on extending this code.
 
